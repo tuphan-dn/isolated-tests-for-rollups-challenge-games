@@ -1,0 +1,40 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "hardhat compile",
+    "test": "pnpm build && hardhat test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition": "^0.15.6",
+    "@nomicfoundation/hardhat-ignition-viem": "^0.15.6",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomicfoundation/hardhat-toolbox-viem": "^3.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
+    "@nomicfoundation/hardhat-viem": "^2.0.0",
+    "@types/chai": "^4.2.0",
+    "@types/chai-as-promised": "^7.1.6",
+    "@types/mocha": ">=9.1.0",
+    "@types/node": ">=18.0.0",
+    "chai": "^4.2.0",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.12",
+    "hardhat-abi-exporter": "^2.10.1",
+    "hardhat-chai-matchers-viem": "^2.0.8",
+    "hardhat-gas-reporter": "^1.0.8",
+    "solidity-coverage": "^0.8.0",
+    "ts-node": ">=8.0.0",
+    "typescript": "~5.0.4",
+    "viem": "^2.21.19"
+  },
+  "dependencies": {
+    "@noble/hashes": "^1.5.0",
+    "@openzeppelin/contracts": "^5.0.2",
+    "level": "^8.0.1"
+  }
+}
